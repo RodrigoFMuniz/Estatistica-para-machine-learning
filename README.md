@@ -19,3 +19,12 @@
 - Probabilistica
 - Inferencial
 - Descritiva
+
+## Descritiva
+
+- Tipos de Variáveis.
+- População e Amostragem.
+- Medidas de Posição: Média, Mediana, Moda e Quartis.
+- Medidas de Dispersão: Amplitude, Variância, Desvio Padrão e coeficiente de variação.
+- Assimetria.
+
