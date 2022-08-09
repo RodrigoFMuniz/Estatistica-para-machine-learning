@@ -25,6 +25,13 @@
 - Conceitos de probabilidades (espaço amostral, eventos e tipos de probabilidades).
 - Distribuições de probabilidade discretas e contínuas: Binomial, Poisson, Exponencial e Normal.
 
+## Inferencial
+
+- Estimativa: estimação de parâmetros e intervalo de confiança.
+- Testes de hipóteses: paramétricos e não paramétricos.
+- Correlação e Regressão Linear.
+
+
 
 
 ## Descritiva
