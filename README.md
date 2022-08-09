@@ -14,4 +14,8 @@
 - Biomedicina.
 - Pesquisas Científicas.
 
+## Tipos
 
+- Probabilistica
+- Inferencial
+- Descritiva
