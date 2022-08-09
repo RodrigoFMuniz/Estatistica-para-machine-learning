@@ -20,6 +20,13 @@
 - Inferencial
 - Descritiva
 
+## Probabilística
+
+- Conceitos de probabilidades (espaço amostral, eventos e tipos de probabilidades).
+- Distribuições de probabilidade discretas e contínuas: Binomial, Poisson, Exponencial e Normal.
+
+
+
 ## Descritiva
 
 - Tipos de Variáveis.
@@ -27,4 +34,6 @@
 - Medidas de Posição: Média, Mediana, Moda e Quartis.
 - Medidas de Dispersão: Amplitude, Variância, Desvio Padrão e coeficiente de variação.
 - Assimetria.
+
+
 
