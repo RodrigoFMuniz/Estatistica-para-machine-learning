@@ -31,9 +31,6 @@
 - Testes de hipóteses: paramétricos e não paramétricos.
 - Correlação e Regressão Linear.
 
-
-
-
 ## Descritiva
 
 - Tipos de Variáveis.
@@ -41,6 +38,20 @@
 - Medidas de Posição: Média, Mediana, Moda e Quartis.
 - Medidas de Dispersão: Amplitude, Variância, Desvio Padrão e coeficiente de variação.
 - Assimetria.
+
+## Principais ferramentas
+
+- Python
+- Linguagem R
+- SPSS
+- SAS
+- Minitab
+- Excel
+- Microsoft Power BI ou Tableu
+- Stata
+- Matlab
+- Emblem
+
 
 
 
