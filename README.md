@@ -88,3 +88,7 @@
 ## Importando o DATASET
 
     dados = pd.read_csv('./microdados_enem_2019_sp.csv', sep=';', encoding='iso-8859-1')
+
+## Apresentando os dados
+
+    dados.head()
