@@ -52,6 +52,12 @@
 - Matlab
 - Emblem
 
+# Conceitos fundamentais
+## Dados
+
+- Informações provenientes de contagens, medidas, observações e respostas, formando conjuntos de dados.
+
+
 
 
 
