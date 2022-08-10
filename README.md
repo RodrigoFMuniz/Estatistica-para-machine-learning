@@ -100,3 +100,9 @@
 ## Tipos de dados
 
     dados.dtypes
+
+## Tratando o dataset
+
+### Removendo colunas
+
+    dados1 = dados.drop(columns=['CO_MUNICIPIO_RESIDENCIA', 'CO_UF_RESIDENCIA','NO_MUNICIPIO_NASCIMENTO','TP_ANO_CONCLUIU','TP_ENSINO','CO_MUNICIPIO_ESC','CO_UF_ESC','SG_UF_ESC','TP_DEPENDENCIA_ADM_ESC','TP_LOCALIZACAO_ESC','TP_SIT_FUNC_ESC'])
