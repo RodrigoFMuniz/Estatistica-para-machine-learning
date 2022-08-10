@@ -63,6 +63,11 @@
 ## Amostra
 - é um subconjunto da população. São extraídas estatísticas.
 
+## Classificação dos dados
+- Qualitativos: atributos não numéricos.
+  - Nominais: Denominações (cores, gênero, raça, títulos…)
+  - Ordinais: atributos que podem ser classificados (Ex: classificação de filmes mais assistidos, grau de escolaridade, nível de satisfação…).
+
 
 
 
