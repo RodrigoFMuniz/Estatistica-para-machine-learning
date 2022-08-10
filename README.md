@@ -92,3 +92,11 @@
 ## Apresentando os dados
 
     dados.head()
+
+## Shape
+
+    dados.shape
+
+## Tipos de dados
+
+    dados.dtypes
