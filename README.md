@@ -60,6 +60,9 @@
 ## População
 - relação de todos os dados de interesse. São extraídos parâmetros.
 
+## Amostra
+- é um subconjunto da população. São extraídas estatísticas.
+
 
 
 
