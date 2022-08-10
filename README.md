@@ -68,6 +68,9 @@
   - Nominais: Denominações (cores, gênero, raça, títulos…)
   - Ordinais: atributos que podem ser classificados (Ex: classificação de filmes mais assistidos, grau de escolaridade, nível de satisfação…).
 
+- Quantitativos: medidas numéricas ou de contagem.
+  - Discreto: valores finitos ou enumeráveis (quantidade de pessoas numa sala, número de carros em um estacionamento…)
+  - Contínuo: infinitos valores possíveis num intervalo (renda, tempo, altura…).
 
 
 
