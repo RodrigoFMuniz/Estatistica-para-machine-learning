@@ -10,7 +10,7 @@ dados = pd.read_csv('./microdados_enem_2019_sp.csv',
 # print(dados.shape)
 # print(dados.dtypes)
 
-dados1 = dados.drop(columns=['CO_MUNICIPIO_RESIDENCIA', 'CO_UF_RESIDENCIA', 'NO_MUNICIPIO_NASCIMENTO', 'TP_ANO_CONCLUIU', 'CO_MUNICIPIO_NASCIMENTO',
+dados1 = dados.drop(columns=['CO_MUNICIPIO_RESIDENCIA', 'CO_UF_RESIDENCIA', 'NO_MUNICIPIO_NASCIMENTO', 'TP_ANO_CONCLUIU', 'CO_MUNICIPIO_NASCIMENTO', 'CO_ESCOLA',
                     'TP_ENSINO', 'CO_MUNICIPIO_ESC', 'CO_UF_ESC', 'SG_UF_ESC', 'CO_UF_NASCIMENTO', 'TP_DEPENDENCIA_ADM_ESC', 'TP_LOCALIZACAO_ESC', 'TP_SIT_FUNC_ESC'])
 
 print(dados.shape)
@@ -31,5 +31,10 @@ dados1 = dados1.rename(columns={'NU_IDADE': 'IDADE', 'TP_SEXO': 'SEXO',
 
 dados1["RACA"] = dados1["RACA"].replace(
     {0: ' Não declarada', 1: 'Branca', 2: 'Preta', 3: 'Parda', 4: 'Amarela', 5: 'Indígena'})
+
+
+dados1['TP_LINGUA'] = dados1['TP_LINGUA'].replace({0: 'INGLÊS', 1: 'ESPANHOL'})
+dados1['ESCOLA'] = dados1['ESCOLA'].replace(
+    {1: 'NR', 2: 'PÚBLICA', 3: 'PRIVADA', 4: 'EXTERIOR'})
 
 print(dados1.head(10))
