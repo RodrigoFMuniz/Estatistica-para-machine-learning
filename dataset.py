@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 pd.set_option('display.max_columns', None)
+# pd.set_option('display.max_rows', None)
 
 
 dados = pd.read_csv('./microdados_enem_2019_sp.csv',
@@ -36,5 +37,9 @@ dados1["RACA"] = dados1["RACA"].replace(
 dados1['TP_LINGUA'] = dados1['TP_LINGUA'].replace({0: 'INGLÊS', 1: 'ESPANHOL'})
 dados1['ESCOLA'] = dados1['ESCOLA'].replace(
     {1: 'NR', 2: 'PÚBLICA', 3: 'PRIVADA', 4: 'EXTERIOR'})
+dados1['INTERNET'] = dados1['INTERNET'].replace(
+    {"A": 'NÃO', "B": 'SIM'})
 
-print(dados1.head(10))
+
+if __name__ == "__main__":
+    print(dados1.head(10))
