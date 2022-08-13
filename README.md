@@ -132,3 +132,10 @@
 - Censo é a medição ou contagem de toda a população.
 - Amostras aleatórias: Todos os elementos tem chances iguais de serem relacionados. Pode ser com reposição ou sem reposição.
 - Amostras tendenciosas: não representam a população.
+
+# Técnicas de amostragem
+
+- Aleatória Simples: Seleção executada por meio de sorteio, sem nenhum filtro.
+- Estratificada: Divisão da população em grupos e seleção aleatória de uma amostra de cada grupo. (Ex: divisão por região, classe social, religião…).
+- Conglomerado (Agrupamento): Divisão da população em grupos com características similares, porém heterogêneas, e seleção aleatória de alguns grupos para analisar todos os elementos destes grupos. (Ex.: Divisão da população de escolas estaduais por região, enfermeiros de uma rede de hospitais… ).
+- Sistemática: Membros da população são ordenados numericamente e são selecionados aleatoriamente, obedecendo uma sequência numérica. (Ex.: criação de números para cada amostra e seleção obedecendo uma ordem numérica).
