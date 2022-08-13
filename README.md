@@ -106,3 +106,12 @@
 ### Removendo colunas
 
     dados1 = dados.drop(columns=['CO_MUNICIPIO_RESIDENCIA', 'CO_UF_RESIDENCIA','NO_MUNICIPIO_NASCIMENTO','TP_ANO_CONCLUIU','TP_ENSINO','CO_MUNICIPIO_ESC','CO_UF_ESC','SG_UF_ESC','TP_DEPENDENCIA_ADM_ESC','TP_LOCALIZACAO_ESC','TP_SIT_FUNC_ESC'])
+
+# Planejamento do estudo Estatístico
+
+- Identificação da população e das variáveis.
+- Plano para coleta de dados.
+- Coleta de dados.
+- Descrição dos dados usando técnicas da estatística descritiva.
+- Interpretação dos dados e tomadas de decisões através da estatística inferencial.
+- Análise de possíveis erros.
