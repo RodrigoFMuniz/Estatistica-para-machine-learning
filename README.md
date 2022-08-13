@@ -115,3 +115,13 @@
 - Descrição dos dados usando técnicas da estatística descritiva.
 - Interpretação dos dados e tomadas de decisões através da estatística inferencial.
 - Análise de possíveis erros.
+
+# Observações e experimentos
+
+## Observações
+
+- elementos analisados não foram sujeitos a interferências (Ex.: pesquisa eleitoral).
+
+## Experimentos
+
+- elementos foram manipulados para obtenção dos resultados (Ex.: análise de medicamentos em testes).
