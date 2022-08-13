@@ -125,3 +125,10 @@
 ## Experimentos
 
 - elementos foram manipulados para obtenção dos resultados (Ex.: análise de medicamentos em testes).
+
+# Amostragem
+
+- Amostragem é a medição ou contagem de parte de uma população.
+- Censo é a medição ou contagem de toda a população.
+- Amostras aleatórias: Todos os elementos tem chances iguais de serem relacionados. Pode ser com reposição ou sem reposição.
+- Amostras tendenciosas: não representam a população.
