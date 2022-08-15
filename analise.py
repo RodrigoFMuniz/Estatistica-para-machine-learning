@@ -13,4 +13,14 @@ maiores_11 = dados1.loc[dados1.IDADE > 11]
 # internet_sim = maiores_11.loc[maiores_11.ESCOLA == 'PÚBLICA']
 
 # print(internet_sim.head(40))
-print(maiores_11.head(40))
+
+# treineiros = maiores_11.query('IN_TREINEIRO == 1')[
+# 'IN_TREINEIRO'].value_counts()
+
+# print(treineiros)
+
+treineiros = maiores_11.loc[maiores_11.IN_TREINEIRO == 1]
+
+print(treineiros.head(40))
+
+# print(maiores_11.head(40))
