@@ -19,11 +19,19 @@ maiores_11 = dados1.loc[dados1.IDADE > 11]
 
 # print(treineiros)
 
-treineiros = maiores_11.loc[maiores_11.IN_TREINEIRO == 1]
+# treineiros = maiores_11.loc[maiores_11.IN_TREINEIRO == 1]
 
-print(treineiros.head(40))
+# print(treineiros.head(40))
 
 # print(maiores_11.head(40))
 
-treineiros.to_csv('treineiros_enem_2019_sp.csv',
-                  encoding='iso-8859-1', index=False)
+# treineiros.to_csv('treineiros_enem_2019_sp.csv',
+#   encoding='iso-8859-1', index=False)
+
+vestibulandos = maiores_11.loc[maiores_11.IN_TREINEIRO == 0]
+print(vestibulandos)
+
+vestibulandos.to_csv('vestibulandos_enem_2019_sp.csv',
+                     encoding='iso-8859-1', index=False)
+
+# print(vestibulandos.head(40))
