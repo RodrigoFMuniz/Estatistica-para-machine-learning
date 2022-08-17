@@ -24,3 +24,6 @@ treineiros = maiores_11.loc[maiores_11.IN_TREINEIRO == 1]
 print(treineiros.head(40))
 
 # print(maiores_11.head(40))
+
+treineiros.to_csv('treineiros_enem_2019_sp.csv',
+                  encoding='iso-8859-1', index=False)
