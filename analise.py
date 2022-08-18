@@ -35,4 +35,8 @@ vestibulandos = maiores_11.loc[maiores_11.IN_TREINEIRO == 0]
 #                      encoding='iso-8859-1', index=False)
 
 # print(vestibulandos.head(40))
-print(vestibulandos.shape)
+# print(vestibulandos.shape)
+print(vestibulandos['TP_PRESENCA_CN'].value_counts())
+print(vestibulandos['TP_PRESENCA_CH'].value_counts())
+print(vestibulandos['TP_PRESENCA_LC'].value_counts())
+print(vestibulandos['TP_PRESENCA_MT'].value_counts())
