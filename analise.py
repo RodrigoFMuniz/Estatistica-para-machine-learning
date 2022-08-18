@@ -29,9 +29,10 @@ maiores_11 = dados1.loc[dados1.IDADE > 11]
 #   encoding='iso-8859-1', index=False)
 
 vestibulandos = maiores_11.loc[maiores_11.IN_TREINEIRO == 0]
-print(vestibulandos)
+# print(vestibulandos)
 
-vestibulandos.to_csv('vestibulandos_enem_2019_sp.csv',
-                     encoding='iso-8859-1', index=False)
+# vestibulandos.to_csv('vestibulandos_enem_2019_sp.csv',
+#                      encoding='iso-8859-1', index=False)
 
 # print(vestibulandos.head(40))
+print(vestibulandos.shape)
